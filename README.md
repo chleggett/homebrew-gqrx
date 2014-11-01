@@ -7,3 +7,5 @@ I plan to use [metacollin/homebrew-gnuradio](https://github.com/metacollin/homeb
 I want to thank [titanous](https://github.com/titanous/homebrew-gnuradio), [robotastic](https://github.com/robotastic/homebrew-hackrf), [0x90](https://github.com/0x90/homebrew-megarf), and [metacollin](https://github.com/metacollin/homebrew-gnuradio) for their development and inspiration.
 
 I invite each of them and all of their collaborators to help me get pull requests of gnuradio, gqrx, and other related formula into Homebrew.
+
+More (most) importantly, I want to thank [csete](https://github.com/csete/gqrx) for his excellent GQRX software.
