@@ -12,7 +12,7 @@ class Gqrx < Formula
   def install
     args = "PREFIX=#{prefix}"
     mkdir "build" do
-      system "qmake",  *args, ".."
+      system "qmake", "..", *args
       system "make"
     end
     Dir.glob("build/*.app") { |app| mv app, prefix }
