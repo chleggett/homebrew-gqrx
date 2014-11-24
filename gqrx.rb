@@ -7,6 +7,7 @@ class Gqrx < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'gnuradio'
+  depends_on 'librtlsdr'
   depends_on 'gr-osmosdr'
   depends_on 'qt'
 
