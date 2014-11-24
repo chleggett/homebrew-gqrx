@@ -6,6 +6,7 @@ class Gqrx < Formula
   sha1 "d24595601c79c894601eaa3cc36d9838134616fe"
 
   depends_on 'gnuradio'
+  depends_on 'gr-osmosdr'
   depends_on 'qt'
 
   def install
