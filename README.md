@@ -15,9 +15,14 @@ INSTALL
 =======
 First, visit [metacollin/homebrew-gnuradio](https://github.com/metacollin/homebrew-gnuradio) and carefully follow all of his instructions to tap the repo and install gnuradio.
 
-Then, tap this gqrx repo and install gqrx:
+Second, tap my gqrx and gr-osmosdr repos:
 
 ```sh
 brew tap chleggett/gqrx
+brew tap chleggett/gr-osmosdr
+```
+Then, install gqrx:
+
+```sh
 brew install gqrx
 ```
