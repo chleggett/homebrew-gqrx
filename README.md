@@ -1,5 +1,4 @@
-This is an effort to setup a homebrew formula for http://gqrx.dk. *It probably
-does NOT work (yet!)*. Feel free to file an issue or fork the repo to help me out.
+This is an effort to setup a homebrew formula for http://gqrx.dk. *It is not ready for primetime quite yet, but IT WORKS!*. Feel free to file an issue or fork the repo to help me out.
 
 It is NOT a "gnuradio and friends" repo. It will only include gqrx and will rely on other Formula for GNURadio and other dependancies.
 
@@ -15,12 +14,19 @@ INSTALL
 =======
 First, visit [metacollin/homebrew-gnuradio](https://github.com/metacollin/homebrew-gnuradio) and carefully follow all of his instructions to tap the repo and install gnuradio.
 
-Second, tap my gqrx and gr-osmosdr repos:
+Second, Gqrx and version 0.5.3 of librtlsdr do not play nice. Until it is updated, we need to use the HEAD version.
+
+```sh
+brew install librtlsdr --HEAD
+```
+
+Third, tap my gqrx and gr-osmosdr repos:
 
 ```sh
 brew tap chleggett/gqrx
 brew tap chleggett/gr-osmosdr
 ```
+
 Then, install gqrx:
 
 ```sh
