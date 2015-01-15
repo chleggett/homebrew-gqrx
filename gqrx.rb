@@ -2,8 +2,8 @@ require "formula"
 
 class Gqrx < Formula
   homepage "http://gqrx.dk"
-  url "https://github.com/csete/gqrx/archive/v2.3.1.tar.gz"
-  sha1 "d24595601c79c894601eaa3cc36d9838134616fe"
+  url "https://github.com/csete/gqrx/archive/v2.3.2.tar.gz"
+  sha1 "23680d9527aca135c2952ab17873ab716e379ac6"
 
   head "https://github.com/csete/gqrx.git"
 
