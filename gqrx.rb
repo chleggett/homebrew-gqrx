@@ -7,11 +7,11 @@ class Gqrx < Formula
 
   head "https://github.com/csete/gqrx.git"
 
-  depends_on 'pkg-config' => :build
-  depends_on 'gnuradio'
-  depends_on 'librtlsdr'
-  depends_on 'gr-osmosdr'
-  depends_on 'qt'
+  depends_on "pkg-config" => :build
+  depends_on "gnuradio"
+  depends_on "librtlsdr"
+  depends_on "gr-osmosdr"
+  depends_on "qt"
 
   def install
     args = "PREFIX=#{prefix}"
