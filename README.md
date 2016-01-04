@@ -31,7 +31,14 @@ brew tap chleggett/gqrx
 brew tap chleggett/gr-osmosdr
 ```
 
-Then, install gqrx:
+Fourth, install the Cheetah python module to satisfy the dependency.
+
+```sh
+brew install python
+pip install Cheetah
+```
+
+Finally, install gqrx:
 
 ```sh
 brew install gqrx
