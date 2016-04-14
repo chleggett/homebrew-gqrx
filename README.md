@@ -1,3 +1,5 @@
+UPDATE: This may no longer be necessary. Gqrx is now distributing an updated OS X app (https://github.com/chleggett/homebrew-gqrx.git). I'll follow that and perhaps contribute a homebrew cask for it.
+
 This is an effort to setup a homebrew formula for http://gqrx.dk. Feel free to file an issue or fork the repo to help me out.
 
 It is NOT a "gnuradio and friends" repo. It will only include gqrx and will rely on other Formula for GNURadio and other dependancies.
